@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f4f4;
+    font-family: 'Poppins';
+}
+.nav{
+    background-color: #47b047;
+    height: 40px;
+    display: flex;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 13px;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    margin-left: 790px;
+}
+.nav ul li{
+    margin-left: 5px;
+    padding-right: 5px;
+}
+.nav ul li:hover{
+    border-bottom: 1px solid white;
+}
+.nav:hover{
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 1256px;
+    height: 90px;
+    position: fixed;
+    margin-top: 0;
+    z-index: 100;
+
+}
+.logo img{
+    margin: 25px 0 0 30px;
+    width: 233px;
+    height: 38px;
+    margin-right: 240px;
+}
+.logo a{
+    text-decoration: none;
+    list-style-type: none;
+    color: gray;
+    padding: 5px;
+    margin-top:27px;
+}
+.logo a:hover{
+    color: #47b047;
+}
+.logo ul{
+    display: flex;
+    font-size: small;
+    font-weight: bold;
+}
+.logo li{
+    margin-right: 3px;
+}
+.logo:hover{
+    cursor: pointer;
+
+}
+.search{
+    margin: 30px 35px 0 0;
+}
+.hero1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.note{
+    background-color: #01447b;
+    height: 700px;
+    padding-top: 70px;
+    padding-left: 30px;
+    color: #99a3c4;
+}
+.note>h3{
+    font-size: 60px;
+    margin-bottom: -30px;
+    color: #FFFFFF;
+}
+.note>h2{
+    font-size: 80px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+.note>p{
+    font-size: 25px;
+}
+.note>button{
+    border-radius: 40px;
+    color: white;
+    background-color: rgb(52, 199, 52);
+    margin-top: 30px;
+    border: none;
+    padding: 18px;
+    width: 160px;
+}
+.note button:hover{
+    color: white;
+}
+.video>video{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+    
+.hero2{
+    background-color: white;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.hero2 .image{
+    width: 600px;
+}
+.text{
+    padding: 30px 50px 20px 60px;
+    margin-bottom: 15px;
+}
+.text>h1{
+    color: #00447b;
+    font-size: 40px;
+    font-style: italic;
+}
+.text>p{
+    color: #627792;
+    font-size: 17px;
+}
+.text span{
+    color: #58b046;
+}
+.text>button{
+    border: none;
+    background-color: #01447b;
+    padding: 15px;
+    width: 170px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.text button:hover{
+    color: #58b046;
+}
+.hero3{
+    background-color: white;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 60px 109.797px 20px;
+}
+.hero3 .image1{
+    width: 600px;
+}
+.text1>h1{
+    color: #052154;
+    margin-bottom: 15px;
+}
+.text1>p{
+    color: #627792;
+    font-size: 15px;
+}
+.text1>button{
+    border: none;
+    background-color: #01447b;
+    padding: 15px;
+    width: 170px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.text1 button:hover{
+    background-color: #58b046;
+}
+.hero4{
+    background-color: white;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.hero4 .image2{
+    width: 500px;
+}
+.text2{
+    padding: 30px 50px 20px 60px;
+}
+.text2>h1{
+    font-size: 40px;
+    color: #052154;
+}
+.text2>p{
+    color: #627792;
+    margin-top: 15px;
+}
+.text2>button{
+    border: none;
+    background-color: #01447b;
+    padding: 15px;
+    width: 170px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.text2 button:hover{
+    background-color: #58b046;
+}
+.hero5{
+    background-color: white;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
+}
+.hero5 .image3{
+    width: 600px;
+}
+.text3{
+    padding: 30px 50px 20px 60px;
+}
+.text3>h1{
+    font-size: 40px;
+    color: #052154;
+}
+.text3>p{
+    color: #627792;
+    margin-top: 15px;
+}
+.text3>button{
+    border: none;
+    background-color: #01447b;
+    padding: 15px;
+    width: 170px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.text3 button:hover{
+    background-color: #58b046;
+}
+.hero6{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 70px;
+    height: 500px;
+}
+.text4{
+    padding: 30px 50px 20px 60px;
+}
+.text4>h1{
+    font-size: 40px;
+    color: #052154;
+}
+.text4>p{
+    color: #627792;
+    margin-top: 15px;
+    font-size: 17px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid img{
+    height: 250px;
+    width: 250px;
+    padding: 15px 10px;
+}
+.hero7{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin-top: 30px;
+}
+.text5{
+    width: 400px;
+    padding: 30px 50px 20px 60px;
+}
+.text5>h1{
+    font-size: 40px;
+    color: #052154;
+}
+.text5>p{
+    color: #627792;
+    margin-top: 15px;
+    font-size: 17px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+}
+.grid1 img{
+    position: relative;
+    height: 250px;
+    width: 400px;
+    padding:10px;
+    transition: 0.3s;
+}
+.grid1 img:hover{
+    transform: scale(1.1);
+}
+.grid1 .customer{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    margin-top: 150px ;
+    margin-left: 300px;
+}
+.grid1 .customer:hover{
+    transform: none;
+}
+.footer{
+    background-color: #1e1e1e;
+    height: 350px;
+    display: flex;
+    padding: 100px 50px;
+    gap: 250px;
+}
+.footer ul li{
+    color: #cccccc;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.footer a{
+    list-style-type: none;
+    text-decoration: none;
+}
+.btn>button{
+    border: none;
+    background-color: #57b046;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 15px;
+}
+.btn button:hover{
+    background-color:#01447b;
+}
+.copyright{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.copyright ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: gray;
+}
+.copyright ul li{
+    list-style-type: none;
+    height: 25px;
+    color: gray;
+    font-size: 13px;
+}
+.copyright ul{
+    display: flex;
+    gap: 5px;
+    padding: 25px;
+}
+.footer-icons{
+    color: white;
+    padding: 20px 10px;
+
+}
+.footer-icons i{
+    padding: 0 5px;
+}
